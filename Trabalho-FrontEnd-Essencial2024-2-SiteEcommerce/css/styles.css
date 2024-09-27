@@ -39,6 +39,11 @@ header {
     z-index: 10;
     display: flex;
     justify-content: center;
+    font-size: 22px;
+}
+
+.navbar :hover{
+    color: #853bca;
 }
 
 .navbar ul {
@@ -76,7 +81,7 @@ header {
 }
 
 #botao {
-    background-color: #000;
+    background-color: #853bca;
     color: #fff;
     margin-top: 30px;
     border: none;
@@ -84,7 +89,7 @@ header {
 }
 
 #botao:hover {
-    background-color: #636363;
+    background-color: #a884ca;
 }
 
 #container {
@@ -98,7 +103,9 @@ a{
     text-decoration: none;
 }
 
-#titulo{
+#titulo{  
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 40px;
     color: #fff;
     margin-top: 50px;
     margin-bottom: 100px;
