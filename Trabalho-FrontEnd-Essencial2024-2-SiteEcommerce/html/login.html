@@ -32,13 +32,17 @@
                 <h2 id="titleLogin">Login</h2>
 
                 <div id="forms">
-                    <label class="titleInput">Nome</label>
-                    <input id="name" class="styleInput" type="text" placeholder="Insira seu nome" />
-
-                    <label class="titleInput">Senha</label>
-                    <input id="password" class="styleInput" type="password" placeholder="Insira sua senha" />
-                    <button onclick="login()" id="botao">Entrar</button>
-                    <button onclick="cadastrar()" id="botao">Cadastrar Nova Conta</button>
+                    <div id="divInsira">
+                        <label class="titleInput">Nome</label>
+                        <input id="name" class="styleInput" type="text" placeholder="Insira seu nome" />
+                        
+                        <label class="titleInput">Senha</label>
+                        <input id="password" class="styleInput" type="password" placeholder="Insira sua senha" />
+                    </div>
+                    <div id="divClick">                        
+                        <button onclick="login()" id="botao" class="styleButton">ENTRAR</button>
+                        <button onclick="cadastrar()" id="botao" class="styleButton">CADASTRAR NOVA CONTA</button>
+                    </div>
                 </div>
             </div>
         </div>
