@@ -1,0 +1,97 @@
+body {
+    height: 100vh;
+    background-color: red;
+    background-image: linear-gradient(#0F1928, #101824, #292531, #312636);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    height: 100px;
+    overflow: hidden;
+}
+
+.scrolling-background {
+    width: 200%;
+    height: 100%;
+    background-image: url('../img/headerteste.png');
+    background-repeat: repeat-x;
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+#titleLogin{
+    font-family: "Pixelify Sans", sans-serif;
+    color: #fff;
+    font-size: 60px;
+}
+
+.cardLogin {
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 10px purple;
+    background-color: #312636;
+}
+
+.card img {
+    width: 180px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.card span {
+    color: #fff;
+    margin-top: 30px;
+}
+
+#botao {
+    background-color: #000;
+    color: #fff;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+#botao:hover {
+    background-color: #636363;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}

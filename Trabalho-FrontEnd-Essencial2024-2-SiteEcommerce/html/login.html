@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/loginstyles.css">
+
+    <!-- SCRIPTS JS -->
+    <script src="../js/base.js"></script>
+    <script src="../js/functions.js"></script>
+    <script src="../js/request.js"></script>
+
+    <!-- ESTILO DE FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="scrolling-background"></div>
+    </header>
+
+    <div id="container">
+        <div id="cardForm">
+
+            <div id="card1" class="cardLogin">
+                <h2 id="titleLogin">Login</h2>
+
+                <div id="forms">
+                    <label class="titleInput">Nome</label>
+                    <input id="name" class="styleInput" type="text" placeholder="Insira seu nome" />
+
+                    <label class="titleInput">Senha</label>
+                    <input id="password" class="styleInput" type="password" placeholder="Insira sua senha" />
+                    <button onclick="login()" id="botao">Entrar</button>
+                    <button onclick="cadastrar()" id="botao">Cadastrar Nova Conta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
