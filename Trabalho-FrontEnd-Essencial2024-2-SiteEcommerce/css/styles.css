@@ -9,8 +9,7 @@ body {
 }
 
 header {
-    position: sticky;
-    top: 0;
+    position: relative;
     height: 100px;
     overflow: hidden;
 }
@@ -30,6 +29,25 @@ header {
     100% {
         transform: translateX(-50%);
     }
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding-top: 30px;
 }
 
 .card {
@@ -73,19 +91,4 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-
-.navbar ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    gap: 10px;
-    padding-top: 30px;
-    text-decoration: none;
-}
-
-.navbar {
-    display: flex;
-    justify-content: center;
 }
