@@ -1,37 +1,43 @@
- /* #header{
-    display: block;
-    width: 100vw;
-}  */
-
-img{
-    width: 100vw;
-    height: 400px;
-}
-
-/* #container{
-    background-color: blue;
-    height: 100%;
-    width: 100%;
-} */
-
-body{
+body {
     height: 100vh;
     background-color: red;
     background-image: linear-gradient(#0F1928, #101824, #292531, #312636);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0px; 
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
-#card1{
+header {
+    position: sticky;
+    top: 0;
+    height: 100px;
+    overflow: hidden;
+}
+
+.scrolling-background {
+    width: 200%;
+    height: 100%;
+    background-image: url('../img/headerteste.png');
+    background-repeat: repeat-x;
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.card {
     margin: 20px;
     width: 200px;
     height: 300px;
     border-radius: 5px;
-    border-color: purple;
-    border-style: solid;
-    border-width: 1px;
+    border: 1px solid purple;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,13 +46,18 @@ body{
     background-color: #312636;
 }
 
-img{
+.card img {
     width: 180px;
     height: 150px;
-    top: 10px;
+    margin-top: 10px;
 }
 
-#botao{
+.card span {
+    color: #fff;
+    margin-top: 30px;
+}
+
+#botao {
     background-color: #000;
     color: #fff;
     margin-top: 30px;
@@ -54,85 +65,25 @@ img{
     cursor: pointer;
 }
 
-#botao:hover{
+#botao:hover {
     background-color: #636363;
 }
 
-#nintendo{
-    color: #fff;
-    margin-top: 30px;
-    left: 30px;
-}
-
-#card2{
-    margin: 20px;
-    width: 200px;
-    height: 300px;
-    border-radius: 5px;
-    border-color: purple;
-    border-style: solid;
-    border-width: 1px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 3px 5px 10px purple;
-    background-color: #312636;
-}
-
-#miniRetro{
-    color: #fff;
-    margin-top: 30px;
-    left: 30px;
-}
-
-#container{
+#container {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-#card3{
-    margin: 20px;
-    width: 200px;
-    height: 300px;
-    border-radius: 5px;
-    border-color: purple;
-    border-style: solid;
-    border-width: 1px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 3px 5px 10px purple;
-    background-color: #312636;
-}
-
-#play1{
-    color: #fff;
-    margin-top: 30px;
-    left: 30px;
-}
-
-header{
-    position: sticky;
-    background-color: #FDFDE5;
-    top: 0px;
-    margin: 0px;
-    height: 200px;
-    background-image: url('./headerteste.png');
-}
-
-.navbar ul{
-    margin: 0px;
-    padding: 0px;
+.navbar ul {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
     display: flex;
     gap: 10px;
     padding-top: 30px;
     text-decoration: none;
 }
-
 
 .navbar {
     display: flex;
