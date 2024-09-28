@@ -1,3 +1,7 @@
+*{ /* <= ESSE CODIGO *{} É GLOBAL, ELE DEIXA TODA A HOME COM ESSA FONTE POR EXEMPLO */    
+    font-family: "Pixelify Sans", sans-serif; 
+}
+
 body {
     height: 100vh;
     background-color: red;

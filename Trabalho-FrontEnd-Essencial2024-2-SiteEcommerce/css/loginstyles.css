@@ -41,33 +41,42 @@ header {
 .cardLogin {
     margin: 20px;
     width: 200px;
-    height: 300px;
+    height: 330px;
     border-radius: 5px;
     border: 1px solid purple;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     box-shadow: 3px 5px 10px purple;
     background-color: #312636;
 }
 
+.titleInput{
+    font-family: "Pixelify Sans", sans-serif;  
+    color: #fff;
+      
+}
 .styleInput{
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Pixelify Sans", sans-serif;  
+      
 }
 .styleButton{
     font-family: "Pixelify Sans", sans-serif;
+    
 }
 
 #divInsira{
     display: flex;
     flex-direction: column;
+    margin: 25px
     
 }
 #divClick{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 25px
 }
 
 .card img {
