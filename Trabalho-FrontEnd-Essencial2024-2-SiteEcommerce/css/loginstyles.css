@@ -8,107 +8,215 @@ body {
     padding: 0;
 }
 
-header {
-    position: sticky;
-    top: 0;
-    height: 100px;
-    overflow: hidden;
-}
+/*Celular*/
+@media(max-width:768px) {
+    @media(min-width:0px) {
+        header {
+            position: sticky;
+            top: 0;
+            height: 15vh;
+            overflow: hidden;
+        }
 
-.scrolling-background {
-    width: 200%;
-    height: 100%;
-    background-image: url('../img/headerteste.png');
-    background-repeat: repeat-x;
-    animation: scroll 20s linear infinite;
-}
+        .scrolling-background {
+            width: 200%;
+            height: 100%;
+            background-image: url('../img/headerteste.png');
+            background-repeat: repeat-x;
+            animation: scroll 20s linear infinite;
+        }
 
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        #container {
+            font-family: "Pixelify Sans", sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        #titleLogin {
+            color: #fff;
+            font-size: 8vh;
+            margin: 1vh;
+        }
+
+        .cardLogin {
+            margin: 6vh;
+            width: 77vw;
+            height: 12vh;
+            border-radius: 5vh 5vw;
+            border: 1px solid purple;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            box-shadow: 3px 5px 10px purple;
+            background-color: #312636;
+        }
+
+        .titleInput {
+            font-family: "Pixelify Sans", sans-serif;
+            font-size: 4vh;
+            color: #fff;
+            width: 72vw;
+        }
+
+        .styleInput {
+            font-family: "Pixelify Sans", sans-serif;
+            font-size: 6vw;
+        }
+
+        .styleButton {
+            margin: 0vh;
+            width: 77vw;
+            height: 12vh;
+            border-radius: 5vw 5vh;
+            border: 1px solid purple;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            box-shadow: 3px 5px 10px purple;
+            background-color: #312636;
+            font-family: "Pixelify Sans", sans-serif;
+            font-size: 7vw;
+            color: #fff;
+        }
+
+        #divInsira {
+            display: flex;
+            flex-direction: column;
+            margin: 6vw
+        }
+
+        #divClick {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0vh 10vw;
+            width: 64vw;
+        }
+
+        #botao {
+            background-color: #1d1a1f;
+            color: #fff;
+            margin-top: 4vh;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0px 0px 1px 3px purple;
+        }
     }
-    100% {
-        transform: translateX(-50%);
+}
+
+/*Tablets ou Computador*/
+@media(min-width:769px) {
+    header {
+        position: sticky;
+        top: 0;
+        height: 102px;
+        overflow: hidden;
     }
-}
 
-#titleLogin{    
-    color: #fff;
-    font-size: 60px;
-    margin: 25px
-}
+    .scrolling-background {
+        width: 200%;
+        height: 100%;
+        background-image: url('../img/headerteste.png');
+        background-repeat: repeat-x;
+        animation: scroll 80s linear infinite;
+    }
 
-.cardLogin {
-    margin: 20px;
-    width: 200px;
-    height: 330px;
-    border-radius: 5px;
-    border: 1px solid purple;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    box-shadow: 3px 5px 10px purple;
-    background-color: #312636;
-}
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
 
-.titleInput{
-    font-family: "Pixelify Sans", sans-serif;  
-    color: #fff;
-      
-}
-.styleInput{
-    font-family: "Pixelify Sans", sans-serif;  
-      
-}
-.styleButton{
-    font-family: "Pixelify Sans", sans-serif;
-    
-}
+        100% {
+            transform: translateX(-50%);
+        }
+    }
 
-#divInsira{
-    display: flex;
-    flex-direction: column;
-    margin: 25px
-    
-}
-#divClick{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 25px
-}
+    #container {
+        font-family: "Pixelify Sans", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
 
-.card img {
-    width: 180px;
-    height: 150px;
-    margin-top: 10px;
-}
+    #titleLogin {
+        color: #fff;
+        font-size: 15vh;
+        margin: 1vh;
+    }
 
-.card span {
-    color: #fff;
-    margin-top: 30px;
-}
+    .cardLogin {
+        margin: 20px;
+        width: 77vw;
+        height: 77vh;
+        border-radius: 5vh 5vw;
+        border: 1px solid purple;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: 3px 5px 10px purple;
+        background-color: #312636;
+    }
 
-#botao {
-    background-color: #000;
-    color: #fff;
-    margin-top: 10px;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0px 0px 1px 3px purple;
-}
+    .titleInput {
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 6vh;
+        color: #fff;
+        width: 72vw;
+    }
 
+    .styleInput {
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 4vh;
+    }
+
+    .styleButton {
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 5vh;
+        color: #fff;
+    }
+
+    #divInsira {
+        display: flex;
+        flex-direction: column;
+        margin: 0vh
+    }
+
+    #divClick {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 6vh
+    }
+
+    #botao {
+        background-color: #000;
+        color: #fff;
+        margin-top: 2vh;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0px 0px 1px 3px purple;
+    }
+
+}
 #botao:hover {
     background-color: #636363;
+    transition: width 1s, height 1s, ease-in-out .5s;
 }
 
-#container {
-    font-family: "Pixelify Sans", sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
 
 .navbar ul {
     margin: 0;
@@ -124,3 +232,23 @@ header {
     display: flex;
     justify-content: center;
 }
+
+    /*Table pequeno*/
+    @media (min-width: 481px) {
+    }
+
+    /*Table pequeno*/
+    @media (min-width: 768px) {
+    }
+
+    /*Tablet grande*/
+    @media (min-width: 992px) {
+    }
+
+    /*Monitores desktop*/
+    @media (min-width: 1200px) {
+    }
+
+    /*Telas largas*/
+    @media (min-width: 1920px) {
+    }
