@@ -1,119 +1,248 @@
-*{ /* <= ESSE CODIGO *{} É GLOBAL, ELE DEIXA TODA A HOME COM ESSA FONTE POR EXEMPLO */    
-    font-family: "Pixelify Sans", sans-serif; 
-}
-
-body {
-    height: 100vh;
-    background-color: red;
-    background-image: linear-gradient(#0F1928, #101824, #292531, #312636);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    position: relative;
-    height: 100px;
-    overflow: hidden;
-}
-
-.scrolling-background {
-    width: 200%;
-    height: 100%;
-    background-image: url('../img/headerteste.png');
-    background-repeat: repeat-x;
-    animation: scroll 20s linear infinite;
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
-}
-
-.navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    font-size: 22px;
-}
-
-.navbar :hover{
-    color: #853bca;
-}
-
-.navbar ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    gap: 10px;
-    padding-top: 30px;
-}
-
-.card {
-    margin: 20px;
-    width: 200px;
-    height: 300px;
-    border-radius: 5px;
-    border: 1px solid purple;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 3px 5px 10px purple;
-    background-color: #312636;
-}
-
-.card img {
-    width: 180px;
-    height: 150px;
-    margin-top: 10px;
-}
-
-.card span {
-    color: #fff;
-    margin-top: 30px;
-}
-
-#botao {
-    background-color: #853bca;
-    color: #fff;
-    margin-top: 30px;
-    border: none;
-    cursor: pointer;
-}
-
-#botao:hover {
-    background-color: #a884ca;
-}
-
-#container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-a{
-    color: #fff;
-    text-decoration: none;
-}
-
-#titulo{  
+* {
+    /* <= ESSE CODIGO *{} É GLOBAL, ELE DEIXA TODA A HOME COM ESSA FONTE POR EXEMPLO */
     font-family: "Pixelify Sans", sans-serif;
-    font-size: 40px;
-    color: #fff;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+/*Tela de Celular*/
+@media(max-width:768px) {
+    @media(min-width:0px) {
+        body {
+            height: 800vh;
+            width: 100vw;
+            background-color: red;
+            background-image: linear-gradient(#0F1928, #101824, #292531, #312636);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            position: relative;
+            height: 100px;
+            overflow: hidden;
+        }
+
+        .scrolling-background {
+            width: 200%;
+            height: 100%;
+            background-image: url('../img/headerteste.png');
+            background-repeat: repeat-x;
+            animation: scroll 20s linear infinite;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 10;
+            display: flex;
+            justify-content: center;
+            font-size: 3.5vw;
+        }
+
+        .navbar :hover {
+            color: #853bca;
+        }
+
+        .navbar ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            gap: 10px;
+            padding-top: 30px;
+        }
+
+        .card {
+            margin: 20px;
+            width: 200px;
+            height: 300px;
+            border-radius: 5px;
+            border: 1px solid purple;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 3px 5px 10px purple;
+            background-color: #312636;
+        }
+
+        .card img {
+            width: 180px;
+            height: 150px;
+            margin-top: 10px;
+        }
+
+        .card span {
+            color: #fff;
+            margin-top: 30px;
+        }
+
+        #botao {
+            background-color: #853bca;
+            color: #fff;
+            margin-top: 30px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #botao:hover {
+            background-color: #a884ca;
+        }
+
+        #container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        #opcoesHeader {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #titulo {
+            font-family: "Pixelify Sans", sans-serif;
+            font-size: 40px;
+            color: #fff;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+/*Telas de Tablets ou Computador*/
+@media(min-width:769px) {
+    body {
+        height: 150vh;
+        background-color: red;
+        background-image: linear-gradient(#0F1928, #101824, #292531, #312636);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        position: relative;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .scrolling-background {
+        width: 200%;
+        height: 100%;
+        background-image: url('../img/headerteste.png');
+        background-repeat: repeat-x;
+        animation: scroll 20s linear infinite;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+    }
+
+    .navbar :hover {
+        color: #853bca;
+    }
+
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        gap: 10px;
+        padding-top: 30px;
+    }
+
+    .card {
+        margin: 20px;
+        width: 200px;
+        height: 300px;
+        border-radius: 5px;
+        border: 1px solid purple;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 3px 5px 10px purple;
+        background-color: #312636;
+    }
+
+    .card img {
+        width: 180px;
+        height: 150px;
+        margin-top: 10px;
+    }
+
+    .card span {
+        color: #fff;
+        margin-top: 30px;
+    }
+
+    #botao {
+        background-color: #853bca;
+        color: #fff;
+        margin-top: 30px;
+        border: none;
+        cursor: pointer;
+    }
+
+    #botao:hover {
+        background-color: #a884ca;
+    }
+
+    #container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #opcoesHeader {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #titulo {
+        font-family: "Pixelify Sans", sans-serif;
+        font-size: 40px;
+        color: #fff;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

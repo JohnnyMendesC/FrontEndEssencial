@@ -36,6 +36,24 @@ body {
             }
         }
 
+        .navbar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 10;
+            display: flex;
+            justify-content: center;
+            font-size: 22px;
+        }
+
+        #opcoesHeader {
+            color: #fff;
+            text-decoration: none;
+            font-family: "Pixelify Sans", sans-serif;
+
+        }
+
         #container {
             font-family: "Pixelify Sans", sans-serif;
             display: flex;
@@ -144,6 +162,23 @@ body {
         }
     }
 
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+    }
+
+    #opcoesHeader {
+        color: #fff;
+        text-decoration: none;
+        font-family: "Pixelify Sans", sans-serif;
+    }
+    
     #container {
         font-family: "Pixelify Sans", sans-serif;
         display: flex;

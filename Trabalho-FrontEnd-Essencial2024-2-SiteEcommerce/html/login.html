@@ -23,6 +23,11 @@
 <body>
     <header>
         <div class="scrolling-background"></div>
+        <nav class="navbar">
+            <ul>
+                <li id="home"><a id="opcoesHeader" href="./home.html"> Voltar</a></li>
+            </ul>
+        </nav>
     </header>
 
     <div id="container">
@@ -35,11 +40,11 @@
                     <div id="divInsira">
                         <label class="titleInput">Nome</label>
                         <input id="name" class="styleInput" type="text" placeholder="Insira seu nome" />
-                        
+
                         <label class="titleInput">Senha</label>
                         <input id="password" class="styleInput" type="password" placeholder="Insira sua senha" />
                     </div>
-                    <div id="divClick">                        
+                    <div id="divClick">
                         <button onclick="login()" id="botao" class="styleButton">ENTRAR</button>
                         <button onclick="cadastrar()" id="botao" class="styleButton">CADASTRAR NOVA CONTA</button>
                     </div>
