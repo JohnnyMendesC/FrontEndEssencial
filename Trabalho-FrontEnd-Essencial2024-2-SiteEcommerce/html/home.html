@@ -10,6 +10,8 @@
 
     <!-- SCRIPTS JS -->
     <script src="../js/base.js"></script>
+    <script src="../js/functions.js"></script>
+    <script src="../js/request.js"></script>
 
     <!-- ESTILO DE FONTE -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +27,9 @@
                 <li><a id="opcoesHeader"  href="#sobre">Sobre</a></li>
                 <li><a id="opcoesHeader" href="#servicos">Serviços</a></li>
                 <li><a id="opcoesHeader" href="#contato">Contato</a></li>
-                <li><a id="opcoesHeader" href="./login.html">Entrar/Cadastrar</a></li>
+                <li><a onclick="validarUsuario()" id="opcoesHeader" href="./login.html">Entrar</a></li>
+                <li><a onclick="validarUsuario()" id="opcoesHeader" href="./login.html">Cadastrar</a></li>
+                <li><a onclick="sair()" id="opcoesHeader" href="./login.html">Sair</a></li>
             </ul>
         </nav>
     </header>

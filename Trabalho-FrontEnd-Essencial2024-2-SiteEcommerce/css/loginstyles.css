@@ -54,6 +54,17 @@ body {
 
         }
 
+        #opcoesHeader:hover {
+            border-radius: 25%;
+            border: 1px solid purple;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            box-shadow: 3px 5px 10px purple;
+            background-color: #312636;
+        }
+
         #container {
             font-family: "Pixelify Sans", sans-serif;
             display: flex;
@@ -177,6 +188,17 @@ body {
         color: #fff;
         text-decoration: none;
         font-family: "Pixelify Sans", sans-serif;
+    }
+
+    #opcoesHeader:hover {
+        border-radius: 25%;
+        border: 1px solid purple;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: 3px 5px 10px purple;
+        background-color: #312636;
     }
     
     #container {

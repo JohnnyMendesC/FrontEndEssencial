@@ -112,14 +112,26 @@
         #opcoesHeader {
             color: #fff;
             text-decoration: none;
+            font-size: 3vw;
+        }
+
+        #opcoesHeader:hover {
+            border-radius: 25%;
+            border: 1px solid purple;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            box-shadow: 3px 5px 10px purple;
+            background-color: #312636;
         }
 
         #titulo {
             font-family: "Pixelify Sans", sans-serif;
-            font-size: 40px;
+            font-size: 6vw;
             color: #fff;
-            margin-top: 50px;
-            margin-bottom: 100px;
+            margin-top: 4vh;
+            margin-bottom: 4vh;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -174,7 +186,7 @@
         font-size: 22px;
     }
 
-    .navbar :hover {
+    .navbar:hover {
         color: #853bca;
     }
 
@@ -235,12 +247,23 @@
         text-decoration: none;
     }
 
+    #opcoesHeader:hover {
+        border-radius: 25%;
+        border: 1px solid purple;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: 3px 5px 10px purple;
+        background-color: #312636;
+    }
+
     #titulo {
         font-family: "Pixelify Sans", sans-serif;
-        font-size: 40px;
+        font-size: 3vw;
         color: #fff;
-        margin-top: 50px;
-        margin-bottom: 100px;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
         display: flex;
         align-items: center;
         justify-content: center;
