@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos</title>
+    <!-- ICONE -->
+     <link rel="shortcut icon" href="../img/boxicon.png" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/pagJogos.css">
+
+    <!-- SCRIPTS JS -->
+    <script src="../js/base.js"></script>
+    <script src="../js/functions.js"></script>
+    <script src="../js/request.js"></script>
+
+    <!-- ESTILO DE FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<!-- CORPO DO SITE TODO -->
+
+<body>
+    <!-- CABEÇALHO -->
+    <header id="header">
+        <div class="scrolling-background">
+        </div>
+        <div id="titulo">
+            <h1>Retro Loja</h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <span id="home"><a id="opcoesHeader" href="./home.html">Início</a></span>
+                <span><a id="opcoesHeader" href="#sobre">Sobre</a></span>
+                <span><a id="opcoesHeader" href="#servicos">Serviços</a></span>
+                <span><a id="opcoesHeader" href="#contato">Contato</a></span>
+                <span><a onclick="validarUsuario()" id="opcoesHeader" href="./login.html">Entrar</a></span>
+                <span><a onclick="validarUsuario()" id="opcoesHeader" href="./login.html">Cadastrar</a></span>
+                <span><a onclick="sair()" id="opcoesHeader" href="./login.html">Sair</a></span>
+            </ul>
+        </div>
+    </header>
+
+    <div>
+        <span id="barra">            
+            <span id="barra2">PRODUTOS</span>
+        </span>
+    </div>
+    <!-- COMPONENTES DO SITE -->
+    <div id="container">
+
+        <!-- PRIMEIRO CARD -->
+        <div id="card1" class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD3VJZ50Z6NzFCdQce1Ca1Rl5inN-W_AuUJw&s"
+                alt="">
+            <span id="nintendo">PRODUTO R$40,00</span>
+            <a id="botao" href="">COMPRAR</a>
+        </div>
+
+        <!-- SEGUNDO CARD -->
+        <div id="card2" class="card">
+            <img src="https://i5.walmartimages.com/seo/Super-Mini-Retro-Classic-Family-TV-Game-Console-Built-in-621-TV-Video-Games-Non-repetitive-8-Bit-AV-NTSC-With-Dual-Controllers-Smart-FC-White_f83a88df-1e7d-448b-a219-c1cf77923804.6fb8168252f5eddb245535250fc38b16.jpeg"
+                alt="">
+            <span id="miniRetro">PRODUTOO R$20,00</span>
+            <a id="botao" href="">COMPRAR</a>
+        </div>
+
+        <!-- TERCEIRO CARD -->
+        <div id="card3" class="card">
+            <img src="https://acdn.mitiendanube.com/stores/001/108/179/products/25ef197909eb2308d3779970717c04e1-26ad048f398ddbc34717254588994769-480-0.png"
+                alt="">
+            <span id="play1">PRODUTO O R$70,00</span>
+            <a id="botao" href="">COMPRAR</a>
+        </div>
+
+        <!-- QUARTO CARD -->
+        <div id="card4" class="card">
+            <img src="https://acdn.mitiendanube.com/stores/001/108/179/products/25ef197909eb2308d3779970717c04e1-26ad048f398ddbc34717254588994769-480-0.png"
+                alt="">
+            <span id="play1">PRODUTOO R$100,00</span>
+            <a id="botao" href="">COMPRAR</a>
+        </div>
+        <!-- QUINTO CARD -->
+        <div id="card5" class="card">
+            <img src="https://acdn.mitiendanube.com/stores/001/108/179/products/25ef197909eb2308d3779970717c04e1-26ad048f398ddbc34717254588994769-480-0.png"
+                alt="">
+            <span id="hardware">PRODUTOO R$90,00</span>
+            <a id="botao" href="">COMPRAR</a>
+        </div>
+    </div>
+</body>
+<!-- FOOTER / RODAPÉ -->
+<footer id="rodape">
+    <div class="rodapeItem">
+        <span class="rodapeTexto">
+            rodapé REFERENCIA voltar ao inicio
+        </span>
+    </div>
+</footer>
+
+</html>
