@@ -21,15 +21,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
-    
-    <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
 </head>
 
 <!-- CORPO DO SITE TODO -->
 
 <body>
+
     <!-- CABEÇALHO -->
     <header id="header">
         <div class="scrolling-background">
@@ -46,6 +52,15 @@
                 <span><a onclick="validarUsuario()" id="opcoesHeader" href="./login.html">Entrar</a></span>
                 <span><a onclick="validarUsuario()" id="opcoesHeader" href="./login.html">Cadastrar</a></span>
                 <span><a onclick="sair()" id="opcoesHeader" href="./login.html">Sair</a></span>
+
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <a href="" class="btn btn-primary active" aria-current="page"><img src="../img/face.png"
+                            alt="facebook"></a>
+                    <a href="#" class="btn btn-primary"><img src="../img/insta.png" alt="instagram"></a>
+                    <a href="#" class="btn btn-primary"><img src="../img/link.png" alt="linkedin"></a>
+                    <a href="https://github.com/JohnnyMendesC/FrontEndEssencial" class="btn btn-primary"><img
+                            src="../img/github.png" alt="github"></a>
+                </div>
             </ul>
         </div>
     </header>
@@ -64,45 +79,48 @@
        
     </div>
     <!-- COMPONENTES DO SITE -->
-     <div id="mae">
-    <div id="container">
+    <div id="mae">
+        <div id="container">
 
-        <!-- PRIMEIRO CARD -->
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <!-- PRIMEIRO CARD -->
+            <div id="card1" class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD3VJZ50Z6NzFCdQce1Ca1Rl5inN-W_AuUJw&s"
+                    alt="">
+                <span id="nintendo">CONSOLES CLÁSSICOS</span>
+                <a id="botao" href="./paginaConsolesLaiz.html">veja mais</a>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a class = 'link' href="./paginaAcessoriosMariana.html"><img src="../img/boxicon.png" class="d-block w-100" alt="..."><span id = 'acessorios'>Acessorrios</span></a>
-              </div>
-              <div class="carousel-item">
-                <a class = 'link2' href="./paginaColecionaveisFelipe.html"><img src="https://ae-pic-a1.aliexpress-media.com/kf/S566eaaa74a6c43579553c01caafb6280i.jpg_640x640Q90.jpg_.webp" class="d-block w-100" alt="..."><span id = 'colecionaveis'>Colecionáveis</span></a>
-              </div>
-              <div class="carousel-item">
-                <a href="./paginaConsolesLaiz.html"><img src="../img/carropixel.png" class="d-block w-100" alt="..."><span id = 'consoles'>Consoles</span></a>
-              </div>
-              <div class="carousel-item">
-                <a href="./paginaEmulacaoModsPecasJohnny.html"><img src="../img/carropixel.png" class="d-block w-100" alt="..."><span id = 'hardware'>Hardwares</span></a>
-              </div>
-              <div class="carousel-item">
-                <a href="./paginaJogosClassicosDaniel.html"><img src="../img/carropixel.png" class="d-block w-100" alt="..."><span id = 'jogos'>Jogos clássicos</span></a>
-              </div>
+
+            <!-- SEGUNDO CARD -->
+            <div id="card2" class="card">
+                <img src="https://i5.walmartimages.com/seo/Super-Mini-Retro-Classic-Family-TV-Game-Console-Built-in-621-TV-Video-Games-Non-repetitive-8-Bit-AV-NTSC-With-Dual-Controllers-Smart-FC-White_f83a88df-1e7d-448b-a219-c1cf77923804.6fb8168252f5eddb245535250fc38b16.jpeg"
+                    alt="">
+                <span id="miniRetro">JOGOS CLÁSSICOS</span>
+                <a id="botao" href="./paginaJogosClassicosDaniel.html">veja mais</a>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </div>
+
+            <!-- TERCEIRO CARD -->
+            <div id="card3" class="card">
+                <img src="https://acdn.mitiendanube.com/stores/001/108/179/products/25ef197909eb2308d3779970717c04e1-26ad048f398ddbc34717254588994769-480-0.png"
+                    alt="">
+                <span id="play1">ACESSÓRIOS VINTAGE</span>
+                <a id="botao" href="./paginaAcessoriosMariana.html">veja mais</a>
+            </div>
+
+            <!-- QUARTO CARD -->
+            <div id="card4" class="card">
+                <img src="https://ae-pic-a1.aliexpress-media.com/kf/S566eaaa74a6c43579553c01caafb6280i.jpg_640x640Q90.jpg_.webp"
+                    alt="">
+                <span id="play1">COLECIONÁVEIS</span>
+                <a id="botao" href="./paginaColecionaveisFelipe.html">veja mais</a>
+            </div>
+            <!-- QUINTO CARD -->
+            <div id="card5" class="card">
+                <img src="https://acdn.mitiendanube.com/stores/001/108/179/products/25ef197909eb2308d3779970717c04e1-26ad048f398ddbc34717254588994769-480-0.png"
+                    alt="">
+                <span id="hardware">HARDWARE VINTAGE</span>
+                <a id="botao" href="./paginaEmulacaoModsPecasJohnny.html">veja mais</a>
+            </div>
+        </div>
     </div>
     <!-- FOOTER / RODAPÉ -->
     <footer id="rodape">
@@ -114,20 +132,4 @@
     </footer>
 </body>
 
-<script>
-const carousel = new bootstrap.Carousel('#myCarousel')
-
-// const myCarouselElement = document.querySelector('#myCarousel')
-
-//     const carousel = new bootstrap.Carousel(myCarouselElement, {
-//       interval: 2000,
-//       touch: false
-//     })
-
-//     const myCarousel = document.getElementById('myCarousel')
-
-// myCarousel.addEventListener('slide.bs.carousel', event => {
-//   // do something...
-// })
-</script>
 </html>
