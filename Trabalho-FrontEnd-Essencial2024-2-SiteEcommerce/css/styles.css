@@ -234,7 +234,58 @@
         color: purple;
     }
 
+    .d-block{
+        height: 350px;
+    }
 
+    .carousel{
+        width: 1000px;
+    }
+
+    #acessorios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    #colecionaveis{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #fff; 
+    }
+
+    #consoles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    #hardware{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    #jogos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .carousel-inner a{
+        margin: 10px;
+        text-decoration: none;
+    }
 }
 
 /*Tela de Celular*/
