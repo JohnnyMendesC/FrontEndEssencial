@@ -1,7 +1,7 @@
 #cardSobre {
-    position: absolute;
+    position: static;
     width: 72vw;
-    height: 64vh;
+    height: auto;
 }
 
 #containerSobre {
@@ -17,6 +17,7 @@
 }
 
 #tituloSobre {
+    text-align: center;
     text-shadow: 0px 0px 10px #a884ca;
     color: #fff;
 }
