@@ -148,6 +148,11 @@
         background-color: #a884ca;
         font-size: large;
     }
+    
+    .barraSelect {
+        z-index: 1;
+        background-color: #a884ca;
+    }
 
     #barraF{
         box-shadow: 3px 5px 10px purple;
