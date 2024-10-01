@@ -134,7 +134,7 @@
         font-size: large;
     }
 
-    #barraF{
+    #barraF {
         box-shadow: 3px 5px 10px purple;
         text-shadow: 0px 0px 10px #312636;
         background-color: #a884ca;
@@ -142,7 +142,17 @@
         justify-content: center;
     }
 
-    .barraF{
+    #barraSelect {
+        z-index: 1;
+        background-color: #a884ca;
+    }
+
+    #barraF {
+        background: rgb(49,38,54);
+        background: radial-gradient(circle, rgba(49,38,54,1) 5%, rgba(168,132,202,1) 100%);
+    }
+
+    .barraF {
         position: relative;
         color: #fff;
         margin-left: -200vh;
@@ -154,7 +164,8 @@
         text-decoration: none;
     }
 
-    .barraT{
+    .barraT {
+        border-radius: 50px;
         position: relative;
         color: #fff;
         padding: 1vh;
@@ -165,7 +176,7 @@
         text-decoration: none;
     }
 
-    .barraT:hover{
+    .barraT:hover {
         background-color: #a884ca;
     }
 
