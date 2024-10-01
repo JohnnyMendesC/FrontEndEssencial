@@ -1,11 +1,4 @@
-#mae {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    align-items: center;
-    width: 200px;
-    height: 200px;
-}
+
 
 #container {
     display: ruby;
@@ -14,8 +7,7 @@
 
 
 .card {
-    position: absolute;
-   margin: 20px; 
+    margin: 20px;
     width: 200px;
     height: 300px;
     border-radius: 5px;
@@ -26,7 +18,7 @@
     align-items: center;
     box-shadow: 3px 5px 10px purple;
     background-color: #312636;
-    padding: 10px; 
+    padding: 10px;
     text-align: center;
 }
 
@@ -39,4 +31,5 @@
 .card span {
     color: #fff;
     margin-top: 30px;
-} 
+}
+

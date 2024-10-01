@@ -12,40 +12,98 @@
 }
 
 #cardPreco {
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-family: "Pixelify Sans", sans-serif;
     color: #fff;
     font-size: larger;
 }
 
 #card1 {
-    height: 64vh;
+    height: 50vh;
     width: 15vw;
 }
 
 #card2 {
-    height: 64vh;
+    height: 50vh;
     width: 15vw;
 }
 
 #card3 {
-    height: 64vh;
+    height: 50vh;
     width: 15vw;
 }
 
 #card4 {
-    height: 64vh;
+    height: 50vh;
     width: 15vw;
 }
 
 #card5 {
-    height: 64vh;
+    height: 50vh;
     width: 15vw;
 }
 
 #imgHardware {
-
     min-width: 100px;
     min-height: 100px;
     max-width: 100px;
     max-height: 100px;
+}
+
+/*Tela de Celular*/
+@media(max-width:768px) {
+    @media(min-width:0px) {
+        #cardsH {
+            display: flex;
+            display: ruby;
+        }
+
+        #cardTexto {
+            display: flex;
+            align-items: center;
+            font-family: "Pixelify Sans", sans-serif;
+            color: #fff;
+            text-align: center;
+        }
+
+        #cardPreco {
+            font-family: "Pixelify Sans", sans-serif;
+            color: #fff;
+            font-size: larger;
+        }
+
+        #card1 {
+            height: 72vh;
+            width: 64vw;
+        }
+
+        #card2 {
+            height: 72vh;
+            width: 64vw;
+        }
+
+        #card3 {
+            height: 72vh;
+            width: 64vw;
+        }
+
+        #card4 {
+            height: 72vh;
+            width: 64vw;
+        }
+
+        #card5 {
+            height: 72vh;
+            width: 64vw;
+        }
+
+        #imgHardware {
+
+            min-width: 100px;
+            min-height: 100px;
+            max-width: 100px;
+            max-height: 100px;
+        }
+    }
 }

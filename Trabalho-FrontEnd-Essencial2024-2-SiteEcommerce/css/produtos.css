@@ -8,7 +8,7 @@
     body {
         height: auto;
         min-height: 100vh;
-        background-color: red;
+        background-color: #312636;
         background-image: linear-gradient(#0F1928, #101824, #292531, #312636);
         background-repeat: no-repeat;
         background-size: cover;
@@ -63,6 +63,11 @@
             transform: translateX(-50%);
         }
     }
+
+    #redes:hover{
+        background-color: #a884ca;
+    }
+
 
     .navbar {
         position: absolute;
@@ -204,6 +209,7 @@
         align-items: center;
         box-shadow: 3px 5px 10px purple;
         background-color: #312636;
+        
     }
 
     .card img {
@@ -215,6 +221,7 @@
     .card span {
         color: #fff;
         margin-top: 30px;
+        
     }
 
     #botao {
@@ -256,7 +263,7 @@
             min-height: 100vh;
             width: 100vw;
             min-width: 100vw;
-            background-color: red;
+            background-color: #312636;
             background-image: linear-gradient(#0F1928, #101824, #292531, #312636);
             background-repeat: no-repeat;
             background-size: cover;
@@ -309,6 +316,27 @@
             }
         }
 
+        .btn-group{
+            position: fixed;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            top: 1vw;
+            left: -6vw;
+            margin: 1vw 1vw;
+            background-color: red;
+            width: 32vw;
+        }
+        #redes{
+            position: fixed;
+            max-width: 5vw;
+            max-height: 5vw;
+        }
+
+        #redes:hover{
+            background-color: #a884ca;
+        }
 
         .navbar {
             position: absolute;
@@ -353,6 +381,77 @@
             align-items: center;
             box-shadow: 3px 5px 10px purple;
             background-color: #312636;
+        }
+
+        #barra {
+            position: relative;
+            padding: 1vh;
+            right: 64vw;
+            display: flex;
+            justify-content: end;
+            border-radius: 15px;
+            box-shadow: 3px 5px 10px purple;
+            text-shadow: 0px 0px 10px #312636;
+            background-color: #a884ca;
+            font-size: large;
+        }
+
+        #opcoesHeader:hover {
+            border-radius: 25%;
+            border: 4px solid purple;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            box-shadow: 3px 5px 10px purple;
+            background-color: #312636;
+        }
+    
+        
+        #barraF {
+            box-shadow: 3px 5px 10px purple;
+            text-shadow: 0px 0px 10px #312636;
+            background-color: #a884ca;
+            display: flex;
+            justify-content: center;
+        }
+    
+        #barraSelect {
+            z-index: 1;
+            background-color: #a884ca;
+        }
+    
+        #barraF {
+            background: rgb(49,38,54);
+            background: radial-gradient(circle, rgba(49,38,54,1) 5%, rgba(168,132,202,1) 100%);
+        }
+    
+        .barraF {
+            position: relative;
+            color: #fff;
+            margin-left: -200vh;
+            padding: 1vh 1vh 1vh 100vh;
+            box-shadow: 3px 5px 10px purple;
+            text-shadow: 0px 0px 10px #a884ca;
+            background-color: purple;
+            font-size: large;
+            text-decoration: none;
+        }
+        
+        .barraT {
+            border-radius: 50px;
+            position: relative;
+            color: #fff;
+            padding: 1vh;
+            box-shadow: 3px 5px 10px purple;
+            text-shadow: 0px 0px 10px #a884ca;
+            background-color: #312636;
+            font-size: 3vw;
+            text-decoration: none;
+        }
+        
+        .barraT:hover {
+            background-color: #a884ca;
         }
 
         #barra {
@@ -439,6 +538,23 @@
         .rodapeTexto {
             background: #a884ca;
             color: purple;
+            font-size: x-small;
         }
     }
+}
+
+#cardTexto {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    font-family: "Pixelify Sans", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+#cardPreco {
+    margin-bottom: 0;
+    font-family: "Pixelify Sans", sans-serif;
+    color: #fff;
+    font-size: medium;
 }

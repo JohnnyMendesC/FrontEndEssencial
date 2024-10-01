@@ -55,12 +55,15 @@
                 <span><a onclick="sair()" id="opcoesHeader" href="./login.html">Sair</a></span>
 
                 <div class="btn-group" role="group" aria-label="Basic outlined example">
-                    <a href="" class="btn btn-primary active" aria-current="page"><img src="../img/face.png"
+                    <a href="" class="btn btn-primary active" aria-current="page">
+                        <img id="redes" src="../img/face.png"
                             alt="facebook"></a>
-                    <a href="#" class="btn btn-primary"><img src="../img/insta.png" alt="instagram"></a>
-                    <a href="#" class="btn btn-primary"><img src="../img/link.png" alt="linkedin"></a>
-                    <a href="https://github.com/JohnnyMendesC/FrontEndEssencial" class="btn btn-primary"><img
-                            src="../img/github.png" alt="github"></a>
+                    <a href="#" class="btn btn-primary">
+                        <img id="redes" src="../img/insta.png" alt="instagram"></a>
+                    <a href="#" class="btn btn-primary">
+                        <img id="redes" src="../img/link.png" alt="linkedin"></a>
+                    <a href="https://github.com/JohnnyMendesC/FrontEndEssencial" class="btn btn-primary">
+                        <img id="redes" src="../img/github.png" alt="github"></a>
                 </div>
             </ul>
         </div>
@@ -68,16 +71,16 @@
 
     <div>
         <!-- BARRA DE NAVEGAÇÃO -->
-            <div>
-                <span id="barraF">
-                    <a class="barraT" href="./paginaAcessoriosMariana.html">ACESSORIOS</a>
-                    <a class="barraT" href="./paginaColecionaveisFelipe.html">COLECIONAVEIS</a>
-                    <a class="barraT" href="./paginaConsolesLaiz.html">CONSOLES</a>
-                    <a class="barraT" href="./paginaEmulacaoModsPecasJohnny.html">HARDWARES</a>
-                    <a class="barraT" href="./paginaJogosClassicosDaniel.html">JOGOS</a>
-                </span>
-            </div>
-       
+        <div>
+            <span id="barraF">
+                <a class="barraT" href="./paginaAcessoriosMariana.html">ACESSORIOS</a>
+                <a class="barraT" href="./paginaColecionaveisFelipe.html">COLECIONAVEIS</a>
+                <a class="barraT" href="./paginaConsolesLaiz.html">CONSOLES</a>
+                <a class="barraT" href="./paginaEmulacaoModsPecasJohnny.html">HARDWARES</a>
+                <a class="barraT" href="./paginaJogosClassicosDaniel.html">JOGOS</a>
+            </span>
+        </div>
+
     </div>
     <!-- COMPONENTES DO SITE -->
     <div id="mae">
@@ -85,41 +88,38 @@
 
             <!-- PRIMEIRO CARD -->
             <div id="card1" class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD3VJZ50Z6NzFCdQce1Ca1Rl5inN-W_AuUJw&s"
-                    alt="">
-                <span id="nintendo">CONSOLES CLÁSSICOS</span>
-                <a id="botao" href="./paginaConsolesLaiz.html">veja mais</a>
-            </div>
-
-            <!-- SEGUNDO CARD -->
-            <div id="card2" class="card">
-                <img src="https://i5.walmartimages.com/seo/Super-Mini-Retro-Classic-Family-TV-Game-Console-Built-in-621-TV-Video-Games-Non-repetitive-8-Bit-AV-NTSC-With-Dual-Controllers-Smart-FC-White_f83a88df-1e7d-448b-a219-c1cf77923804.6fb8168252f5eddb245535250fc38b16.jpeg"
-                    alt="">
-                <span id="miniRetro">JOGOS CLÁSSICOS</span>
-                <a id="botao" href="./paginaJogosClassicosDaniel.html">veja mais</a>
-            </div>
-
-            <!-- TERCEIRO CARD -->
-            <div id="card3" class="card">
-                <img src="https://acdn.mitiendanube.com/stores/001/108/179/products/25ef197909eb2308d3779970717c04e1-26ad048f398ddbc34717254588994769-480-0.png"
-                    alt="">
+                <img src="../img/Home-N64-Controller-Gray.jpg" alt="Imagem do controle de Nintendo 64 na cor cinza">
                 <span id="play1">ACESSÓRIOS VINTAGE</span>
                 <a id="botao" href="./paginaAcessoriosMariana.html">veja mais</a>
             </div>
 
-            <!-- QUARTO CARD -->
-            <div id="card4" class="card">
+            <!-- SEGUNDO CARD -->
+            <div id="card2" class="card">
                 <img src="https://ae-pic-a1.aliexpress-media.com/kf/S566eaaa74a6c43579553c01caafb6280i.jpg_640x640Q90.jpg_.webp"
-                    alt="">
+                    alt="Imagem de 9 Colecionáveis da franquia Star Wars lacrados">
                 <span id="play1">COLECIONÁVEIS</span>
                 <a id="botao" href="./paginaColecionaveisFelipe.html">veja mais</a>
             </div>
-            <!-- QUINTO CARD -->
-            <div id="card5" class="card">
-                <img src="https://acdn.mitiendanube.com/stores/001/108/179/products/25ef197909eb2308d3779970717c04e1-26ad048f398ddbc34717254588994769-480-0.png"
-                    alt="">
+
+            <!-- TERCEIRO CARD -->
+            <div id="card3" class="card">
+                <img src="../img/Home-Mega-Drive-Console-Set-Mk1.png" alt="Imagem do console Mega Drive de 1988">
+                <span id="nintendo">CONSOLES CLÁSSICOS</span>
+                <a id="botao" href="./paginaConsolesLaiz.html">veja mais</a>
+            </div>
+
+            <!-- QUARTO CARD -->
+            <div id="card4" class="card">
+                <img src="../img/Home-Hardware-GeForce256.jpg" alt="Imagem da placa de vídeo GeForce 256 de 1999">
                 <span id="hardware">HARDWARE VINTAGE</span>
                 <a id="botao" href="./paginaEmulacaoModsPecasJohnny.html">veja mais</a>
+            </div>
+            <!-- QUINTO CARD -->
+            <div id="card5" class="card">
+                <img src="../img/Home-Jogos Classicos.jpg"
+                    alt="Imagem do Cartucho de Super Mario 64 para o Console Nintendo 64 de 1996">
+                <span id="miniRetro">JOGOS CLÁSSICOS</span>
+                <a id="botao" href="./paginaJogosClassicosDaniel.html">veja mais</a>
             </div>
         </div>
     </div>
@@ -127,7 +127,7 @@
     <footer id="rodape">
         <div class="rodapeItem">
             <span class="rodapeTexto">
-                rodapé REFERENCIA
+                SerraTec - Front End Essencial - 2024-2 Turma 20 - Petrópolis
             </span>
         </div>
     </footer>
