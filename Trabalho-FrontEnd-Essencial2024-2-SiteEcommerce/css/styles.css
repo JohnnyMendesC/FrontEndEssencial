@@ -22,6 +22,20 @@
         overflow: hidden;
     }
 
+    .btn-group {
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 2px 10px;
+        color: purple;
+        width: fit-content;
+    }
+    .btn-group img {
+        height: 30px;
+        margin-top: 2px;
+        padding: 5px;
+    }
+
     #titulo {
         position: absolute;
         top: 0vh;
@@ -80,13 +94,14 @@
     }
 
     .navbar ul {
+        position: fixed;
         margin: 0;
         padding: 0;
         list-style-type: none;
         display: flex;
         gap: 10px;
         padding-top: 30px;
-    }
+    } 
 
     #opcoesHeader {
         position: relative;
@@ -234,58 +249,7 @@
         color: purple;
     }
 
-    .d-block{
-        height: 350px;
-    }
 
-    .carousel{
-        width: 1000px;
-    }
-
-    #acessorios{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        color: #fff;
-    }
-    
-    #colecionaveis{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        color: #fff; 
-    }
-
-    #consoles{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        color: #fff;
-    }
-
-    #hardware{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        color: #fff;
-    }
-
-    #jogos{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        color: #fff;
-    }
-
-    .carousel-inner a{
-        margin: 10px;
-        text-decoration: none;
-    }
 }
 
 /*Tela de Celular*/
