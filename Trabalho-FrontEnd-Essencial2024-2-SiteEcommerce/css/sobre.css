@@ -1,0 +1,31 @@
+#cardSobre {
+    position: absolute;
+    width: 72vw;
+    height: 64vh;
+}
+
+#containerSobre {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#maeSobre {
+    display: flex;
+    justify-content: center;
+}
+
+#tituloSobre {
+    text-shadow: 0px 0px 10px #a884ca;
+    color: #fff;
+}
+
+#subtituloSobre{
+    text-shadow: 0px 0px 10px #a884ca;
+}
+#textoSobre {
+    margin: 0;
+    text-align: center;
+    padding: 0vw 5vw;
+}
