@@ -1,0 +1,76 @@
+
+#backgroundimage {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100vw;
+    height: 47vw;
+    opacity: 20%;
+    pointer-events: none
+}
+
+#container {
+    font-family: "Luckiest Guy", cursive;    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#header {
+    background-color: aqua;
+}
+
+#titlePoke {
+    color: yellow;
+    margin-left: 24px;
+}
+
+#descriPoke {
+    margin-left: 24px;
+}
+
+#inputs {
+    background-color: aquamarine;
+}
+
+.treinadorInput {
+    margin-left: 24px;
+}
+
+.treinadorStyle {
+    margin-left: 24px;    
+}
+
+#cardLista {
+    margin-left: 24px;
+}
+
+#cardButton {
+    margin-left: 24px;
+    font-size: 20px;
+}
+#cardsPokedex {
+    margin-left: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 700px;
+    width: 30%;
+}
+
+
+/* --> Exercícios de CSS
+- Crie a estrutura do estilo em um arquivo separado
+
+- Altere a cor, o tamanho e a fonte do texto pegando fonte do google.
+- Adicione estilos diferentes para títulos (<h1>, <h2>, etc.) e parágrafos.
+
+- Adicione bootstrap no projeto.
+
+- Adicione algum efeito em algum botão, ou no direcionamento do link para o usuário saber que o cursor do mouse esta ali.
+- Adicione estilos aos cards criados.
+- Use flexbox para organizar as informações na tela do browser.
+- Use o position para posicionar elementos em localizações diferentes no site. */

@@ -1,0 +1,82 @@
+
+#backgroundimage {
+    margin-top: -145px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 98vw;
+    height: 130vw;
+    opacity: 20%;
+    pointer-events: none
+    
+}
+
+#container {
+    font-family: "Luckiest Guy", cursive;    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#header {
+    background-color: #000000;
+}
+
+#titlePoke {
+    color: #63ba50;
+    margin-left: 24px;
+}
+
+#descriPoke {
+    color: #6a9e5f;
+    margin-left: 24px;
+}
+
+#inputs {
+    background-color: aquamarine;
+}
+
+.input {
+    margin-left: 24px;
+}
+
+.style {
+    margin-left: 24px;    
+}
+
+#cardLista {
+    margin-left: 24px;
+}
+
+#cardButton {
+    margin-left: 24px;
+    font-size: 20px;
+}
+#cardsPokedex {
+    margin-left: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 700px;
+    width: 30%;
+}
+#checkboxLista{
+    background-color: aqua;
+}
+
+
+/* --> Exercícios de CSS
+- Crie a estrutura do estilo em um arquivo separado
+
+- Altere a cor, o tamanho e a fonte do texto pegando fonte do google.
+- Adicione estilos diferentes para títulos (<h1>, <h2>, etc.) e parágrafos.
+
+- Adicione bootstrap no projeto.
+
+- Adicione algum efeito em algum botão, ou no direcionamento do link para o usuário saber que o cursor do mouse esta ali.
+- Adicione estilos aos cards criados.
+- Use flexbox para organizar as informações na tela do browser.
+- Use o position para posicionar elementos em localizações diferentes no site. */

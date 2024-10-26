@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="../aula4-localstorage/js/base.js" defer></script>
+  <script src="../aula4-localstorage/js/functions.js" defer></script>
+  <script src="../aula4-localstorage/js/request.js" defer></script>
+  <title>Home</title>
+</head>
+
+<body>
+  <button id="direct" onclick="irProFooter()">Footer</button>
+  <button onclick="carregarDadosApi()">BuscarNinjas</button>
+  <h1>Ola, eu sou a home!</h1>
+
+  <input type="text" id="name" placeholder="name"/>
+  <input type="text" id="email" placeholder="email"/>
+  <button onclick="cadastro()">Cadastrar</button>
+  <div id="lista"></div>
+
+  
+
+
+  <footer id="footer"></footer>
+  @copy
+  <button onclick="sair()">Sair</button>
+  </footer>
+</body>
+<script>
+  function irProFooter() {
+    document.getElementById('footer').scrollIntoView({ behavior: 'smooth' })
+  }
+
+
+</script>
+
+</html>
